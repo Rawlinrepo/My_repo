@@ -1,4 +1,4 @@
-
+#.github/workflows/ci.yml
 name: My first CI
 
 on:
@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
-      - run: echo "Hello , CI/CD World"
+        run: echo "Hello , CI/CD World"
       
